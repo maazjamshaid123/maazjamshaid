@@ -19,7 +19,6 @@ colorama==0.4.6
 comm==0.2.0
 contourpy==1.2.0
 convcolors==2.2.0
-cquav==0.0.6
 cryptocode==0.1
 cvxopt==1.3.2
 cycler==0.12.1
