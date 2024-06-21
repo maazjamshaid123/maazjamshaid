@@ -18,6 +18,7 @@ def show_projects():
     image_url = "https://www.nasa.gov/wp-content/uploads/2023/08/aiassistants.jpg"
     col1.image(image_url, width = 400)
     col2.title("AI Research Assistant for Space Scientists")
+    col2.caption("NASA HACKATHON")
     col2.caption('''Leverages data-driven approaches such as data analysis, visualization, machine learning, and artificial 
                intelligence using OpenAI and provides effective solutions for a wide range of problems.''')
     col2.caption("[Explore](https://odyssey.streamlit.app/)")
