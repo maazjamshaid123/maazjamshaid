@@ -6,7 +6,7 @@ def show_projects():
     # UAV Object Tracker
     col1, col2 = st.columns(2)
     image_url = "images\\tgt_mil.png"
-    col1.image(image_url, width = 400, 6)
+    col1.image(image_url, width = 400)
     col2.title("OpenCV Target Tracker for UAVs")
     col2.caption('''Utilizes computer vision and Kalman filtering techniques to track objects in real-time. The application 
                  allows users to select an object for tracking by clicking on it in the video stream, and then visualizes the 
