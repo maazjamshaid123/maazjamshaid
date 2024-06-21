@@ -11,7 +11,7 @@ def show_projects():
     col2.caption('''Utilizes computer vision and Kalman filtering techniques to track objects in real-time. The application 
                  allows users to select an object for tracking by clicking on it in the video stream, and then visualizes the 
                  tracking process, including predicted object positions and velocities.''')
-    col2.text([View More]("https://github.com/maazjamshaid123/Target-Tracker-using-OpenCV-and-Kalman-Filter"))
+    col2.text("([View More]("https://github.com/maazjamshaid123/Target-Tracker-using-OpenCV-and-Kalman-Filter"))")
 
     # AI Research Assistant
     col1, col2 = st.columns(2)
