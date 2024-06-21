@@ -20,8 +20,8 @@ def show_projects():
     col2.title("AI Research Assistant for Space Scientists")
     col2.caption('''Leverages data-driven approaches such as data analysis, visualization, machine learning, and artificial 
                intelligence using OpenAI and provides effective solutions for a wide range of problems.''')
-    [Explore]("https://odyssey.streamlit.app/")
-    [View More]("https://github.com/maazjamshaid123/AI-Research-Assistant-Odyssey")
+    col2.text("[Explore](https://odyssey.streamlit.app/)")
+    col2.text("[View More](https://github.com/maazjamshaid123/AI-Research-Assistant-Odyssey)")
 
 
     
