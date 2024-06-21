@@ -16,7 +16,7 @@ def show_projects():
     # AI Research Assistant
     col1, col2 = st.columns(2)
     image_url = "https://www.nasa.gov/wp-content/uploads/2023/08/aiassistants.jpg"
-    col1.image(image_url, width = 400)
+    col1.image(image_url, width = 300)
     col2.title("AI Research Assistant for Space Scientists")
     col2.caption("NASA HACKATHON")
     col2.caption('''Leverages data-driven approaches such as data analysis, visualization, machine learning, and artificial 
