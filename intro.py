@@ -11,7 +11,7 @@ def download_file(file_path):
         )
 
 def show_intro():
-    file_path = "docs/MaazJamshaid_CV_AI.pdf"  
+    file_path = "docs/MaazJamshaid_CV.pdf"  
     st.title("Maaz Jamshaid")
     st.caption("Avionics Engineer - [Institute of Space Technology](https://ist.edu.pk/) (2022)")
     st.caption("📍Peshawar, Islamabad")
