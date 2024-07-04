@@ -9,7 +9,7 @@ st.set_page_config(page_title='Maaz Jamshaid', layout='wide', menu_items={
 })
 
 
-st.sidebar.image("images/maaz.jpg", use_column_width=True)
+st.sidebar.image("images/maaz_2.png", use_column_width=True)
 
 
 st.sidebar.code("maazjamshaid.123@gmail.com", language="bash")
