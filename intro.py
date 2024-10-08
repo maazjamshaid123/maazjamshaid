@@ -38,7 +38,7 @@ def show_intro():
              involved developing AI-based UAV systems for autonomous target tracking and implementing classical image processing 
              techniques on embedded systems. I have hands-on experience with various flight controllers and Mission Planner 
              software and a robust background in both theoretical and practical aspects of Avionics and Machine Learning''')
-    st.caption("I aim to broaden my skills and deepen my expertise in the field of space.")
+    st.caption("I aim to broaden my skills and deepen my expertise in the field of Astronatics and Aeronautics.")
     
     st.markdown("---")
 
