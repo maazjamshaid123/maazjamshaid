@@ -31,7 +31,7 @@ def show_intro():
     st.markdown("---")
     st.text("AVIONICS | UAVs | SPACE")
 
-    st.caption('''I am currently working as a Research Assistant at [Institute of Space Technology](www.ist.edu.pk) under the supervision of [Dr. Muhammad Usman](https://inspirehep.net/authors/1674293#:~:text=IST,%20Islamabad.%20hep-ph%20and%20hep-th%20and%20astro-ph%20and%20physics.), 
+    st.caption('''I am currently working as a Research Assistant at [Institute of Space Technology](https://ist.edu.pk/) under the supervision of [Dr. Muhammad Usman](https://inspirehep.net/authors/1674293#:~:text=IST,%20Islamabad.%20hep-ph%20and%20hep-th%20and%20astro-ph%20and%20physics.), 
             researching on Dark Energy and Inflation. I am also serving as an Imagery Design Engineer at the [Pakistan Air Force](https://en.wikipedia.org/wiki/Pakistan_Air_Force), where I am working in object detection 
             and tracking using IR imagery, integrating deep learning algorithms, and enhancing gimbal systems with computer vision.''')
     st.caption('''My previous role as an Avionics Engineer at [Sysverve Aerospace](https://www.sysverveaerospace.com/) 
