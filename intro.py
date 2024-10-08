@@ -25,15 +25,15 @@ def show_intro():
         st.markdown("[![Github](https://cdn0.iconfinder.com/data/icons/social-line-transparent/50/Github-line-transparent-128.png)](https://github.com/maazjamshaid123)")
     with col3:
         st.markdown("[![Whatsapp](https://cdn0.iconfinder.com/data/icons/social-line-transparent/50/Whatsapp-line-transparent-128.png)](https://wa.me/03095183754)")
-    with col4:
-        st.markdown("[![Calendly](https://cdn0.iconfinder.com/data/icons/social-line-transparent/50/Trello-line-transparent-64.png)](https://calendly.com/maazjamshaid-123/30min)")
+    # with col4:
+    #     st.markdown("[![Calendly](https://cdn0.iconfinder.com/data/icons/social-line-transparent/50/Trello-line-transparent-64.png)](https://calendly.com/maazjamshaid-123/30min)")
         
     st.markdown("---")
     st.text("AVIONICS | UAVs | SPACE")
 
-    st.caption('''I am currently serving as an Imagery Design Engineer at the [Pakistan Air Force](https://en.wikipedia.org/wiki/Pakistan_Air_Force), 
-             where I am working in object detection and tracking using IR imagery, integrating deep learning algorithms, and 
-             enhancing gimbal systems with computer vision.''')
+    st.caption('''I am currently working as a Research Assistant at [Institute of Space Technology](www.ist.edu.pk) under the supervision of [Dr. Muhammad Usman](https://inspirehep.net/authors/1674293#:~:text=IST,%20Islamabad.%20hep-ph%20and%20hep-th%20and%20astro-ph%20and%20physics.), 
+            researching on Dark Energy and Inflation. I am also serving as an Imagery Design Engineer at the [Pakistan Air Force](https://en.wikipedia.org/wiki/Pakistan_Air_Force), where I am working in object detection 
+            and tracking using IR imagery, integrating deep learning algorithms, and enhancing gimbal systems with computer vision.''')
     st.caption('''My previous role as an Avionics Engineer at [Sysverve Aerospace](https://www.sysverveaerospace.com/) 
              involved developing AI-based UAV systems for autonomous target tracking and implementing classical image processing 
              techniques on embedded systems. I have hands-on experience with various flight controllers and Mission Planner 
@@ -47,24 +47,30 @@ def show_intro():
     
     st.markdown("---")
     st.write("Courses and Certifications")
+    st.caption("[Data-driven Astronomy](https://www.coursera.org/learn/data-driven-astronomy)")
+    st.caption("[Supervised Machine Learning: Regression and Classification](https://www.coursera.org/account/accomplishments/verify/DLGNS4CNAM7Y)")
+    st.caption("[Advanced Learning Algorithms](https://www.coursera.org/account/accomplishments/verify/HJKTURGQ4BQ8)")
     st.caption("[Introduction to Programming with MATLAB](http://coursera.org/verify/4MC8TB57DLUP)")
     st.caption("[Programming for Everybody (Getting Started with Python)](https://www.coursera.org/account/accomplishments/verify/SHY6LQMJQ2YX)")
     st.caption("[Robotics: Aerial Robotics](https://www.coursera.org/account/accomplishments/verify/3X7FYGR4PWRN)")
-    st.caption("[Supervised Machine Learning: Regression and Classification](https://www.coursera.org/account/accomplishments/verify/DLGNS4CNAM7Y)")
-    st.caption("[Advanced Learning Algorithms](https://www.coursera.org/account/accomplishments/verify/HJKTURGQ4BQ8)")
-    st.caption("[Data-driven Astronomy](https://www.coursera.org/learn/data-driven-astronomy)")
     st.markdown("---")
 
     st.write("Technical Skills")
     items = [
         'Python',
-        'OpenCV',
-        'UAV system integration',
         'MATLAB',
-        'Image Processing',
+        'Machine Learning',
+        'Data Science',
+        'Data Analytics',
+        'Data Visualization',
         'Statistical Analytics',
-        'Computer Vision',
+        'Astro-statistics',
+        'Computational Mathematics',
+        'OpenCV',
         'CAD Modelling in Fusion 360',
+        'UAV system integration',
+        'Image Processing',
+        'Computer Vision',
         'Mission Planner & QGround Control',
         'UAV Transmission Links: MK32, H16, Herelink',
         'Gimbal control using PWM/serial signals',
